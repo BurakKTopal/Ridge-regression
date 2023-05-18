@@ -32,6 +32,9 @@ for (k in 0:5){
   #defining the vector with the response variables:
   Y <- matrix(nrow = 2, ncol = 1)
   Y[,1] =  c(2+2*k*2/5,7-k*2/5)
+  #defining the identity matrix:
+  I <- matrix(0, 2, 2)
+  diag(I) <- 1
   #equaling the ridge parameter to 1:
   lambda = 1
   #computing the beta vector:
