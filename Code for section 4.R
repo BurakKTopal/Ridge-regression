@@ -18,6 +18,3 @@ diag(I) <- 1
 #calculating beta:
 beta <- inv(t(X)%*%X + lambda*I)%*%t(X)%*%Y
 abline(c(beta[1], beta[2]), col = 2)
-
-
-
