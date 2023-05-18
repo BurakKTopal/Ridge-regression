@@ -9,7 +9,7 @@ folds_index<-createFolds(test_index, k = 10, list = TRUE, returnTrain = FALSE)
 #creating the for loop to make the different partitions:
 residualMatrix <- matrix(c(0,0), nrow = 1, byrow = TRUE)
 colnames(residualMatrix)<- c('lambda','residual')
-for (lambda in 1:10){
+for (lambda in 1:5000){
   #going in steps of 0.1:
   lambda<- lambda/10
   for (j in 1:10){
