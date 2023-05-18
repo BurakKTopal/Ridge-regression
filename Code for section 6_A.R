@@ -12,6 +12,3 @@ sst <- sum((Y - mean(Y))^2)
 sse <- sum((y_predicted - Y)^2)
 rse<-1-sse/sst
 rse
-
-
-
