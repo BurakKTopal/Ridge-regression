@@ -39,5 +39,3 @@ for (k in 0:5){
   #drawing the lines computed by the beta vector in red:
   abline(c(beta[1],beta[2]),col = 2)
 }
-
-
